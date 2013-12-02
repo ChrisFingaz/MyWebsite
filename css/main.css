@@ -1,0 +1,52 @@
+body {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background: #222;
+	background-image:url(../img/tile-2.jpg);
+	overflow: hidden;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 30px;
+	height: auto;
+	width: auto;
+	text-align: center;
+	background: rgb(0, 0, 0);
+	background: rgba(0,0,0,0.6);
+}
+
+.bottom-fill {
+	height: 100%;
+}
+
+.container h1 {
+	font: normal 70px verdana;
+	letter-spacing: 2px;
+	color: #ccc;
+}
+
+.container ul {
+	width: 100%;
+	margin: 0 0 50px 0; padding: 0 0 0 0;
+	float: left;
+}
+
+.container ul li  {
+	margin-right: 30px;
+	display: inline-block;
+	font: normal 15px verdana;
+}
+
+.container .first {
+	margin-left: 25px;
+}
+
+.container ul li a {
+	text-decoration: none;
+	color: #aaa;
+}
+
+.container .contact {
+	color: #444;
+}
