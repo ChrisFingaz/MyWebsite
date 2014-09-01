@@ -1,0 +1,11 @@
+{
+  "name": "christopher-larsen-site",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sass": "^0.14.1"
+  },
+  "dependencies": {
+    "express": "^4.8.7"
+  }
+}
