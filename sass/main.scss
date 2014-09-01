@@ -1,0 +1,33 @@
+@import 'base';
+
+body {
+	background: $dark-grey;
+}
+
+.main {
+	margin: 0 auto;
+	width: 800px;
+
+	h1 {
+		font-family: $h1-font;
+		font-size: $h1-font-size;
+		color: $primary-color;
+	}
+
+	h2 {
+		font-family: $h2-font;
+		font-size: $h2-font-size;
+		color: $primary-color;
+	}
+
+	p {
+		font-family: $p-font;
+		font-size: $p-font-size;
+		color: $primary-color;
+	}
+
+	.main-content {
+
+	}
+
+}

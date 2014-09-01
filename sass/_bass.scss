@@ -1,0 +1,30 @@
+// Colors _____________________________________________________________________
+$dark-grey: #3b3b3b;
+$drop-shadow:rgba(0,0,0,0.75);
+
+// Google Fonts _______________________________________________________________
+@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway);
+
+// Variables __________________________________________________________________
+$base-font-size: 16px;
+
+$h1-font-size: em(60px);
+$h2-font-size: em(36px);
+$p-font-size: em(14px);
+
+$h1-font: 'Lobster', Georgia;
+$h2-font: 'Raleway', Arial, sans-serif;
+$p-font: 'Raleway', Arial, sans-serif;
+
+$primary-color: #000;
+
+// Functions __________________________________________________________________
+
+// $px === the font-size you want
+// $base === the font-size, in pixels, of whatever 1em equals in the context
+// of the element in question. if left blank, it defaults to 10px
+// multiplying by 1em just converts the quotient to em
+
+@function em($px, $base: $base-font-size) {
+    @return ($px / $base) * 1em;
+}
