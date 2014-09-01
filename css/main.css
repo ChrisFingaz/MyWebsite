@@ -1,8 +1,15 @@
+html { 
+  background: url(../img/bg-3.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 body {
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
-	background: #222;
-	background-image:url(../img/tile-2.jpg);
 	overflow: hidden;
 }
 
@@ -13,7 +20,7 @@ body {
 	width: auto;
 	text-align: center;
 	background: rgb(0, 0, 0);
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.8);
 }
 
 .bottom-fill {
@@ -21,6 +28,7 @@ body {
 }
 
 .container h1 {
+	margin: 0 0 10px 0;
 	font: normal 70px verdana;
 	letter-spacing: 2px;
 	color: #ccc;
@@ -34,8 +42,10 @@ body {
 
 .container ul li  {
 	margin-right: 30px;
+	padding: 10px;
 	display: inline-block;
 	font: normal 15px verdana;
+	background: #000;
 }
 
 .container .first {
@@ -48,5 +58,7 @@ body {
 }
 
 .container .contact {
-	color: #444;
+	font: normal 14px verdana;
+	letter-spacing: 2px;
+	color: #aaa;
 }

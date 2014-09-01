@@ -5,6 +5,7 @@
 	<meta name="Keywords" content="Christopher Larsen, Web Development, Mobile Development, iOS Development, Flash Development" />
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 	<script src="js/processing-1.4.1.min.js" type="text/javascript"></script>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
 	<style type="text/css">
 	@-moz-document url-prefix() {
@@ -24,10 +25,10 @@
 			<a href="/pdf/clResume.pdf">past</a>
 		</li> -->
 		<li class="first">
-			<a href="https://github.com/chrisfingaz">git hub</a>
+			<a href="https://github.com/chrisfingaz">GIT HUB</a>
 		</li>
 		<li>
-			<a href="http://lnkd.in/dAHDx4E">linked in</a>
+			<a href="http://lnkd.in/dAHDx4E">LINKED IN</a>
 		</li>
 	</ul>
 
@@ -122,6 +123,7 @@
 			    flock(boids);
 			    update();
 			    borders();
+			   // boidPath();
 			    render();
 			  }
 
@@ -142,9 +144,9 @@
 			    acc.add(coh);
 			  }
 
+			  
 			  // Method to update location
 			  void update() {
-
 			    // Update velocity
 			    vel.add(acc);
 
@@ -154,7 +156,7 @@
 
 			    // Reset accelertion to 0 each cycle
 			    acc.setXYZ(0,0,0);
-
+			    
 			  }
 
 			  void seek(Vector3D target) {
@@ -197,15 +199,14 @@
 			    } else {
 			      steer = new Vector3D(0,0);
 			    }
-
 			    return steer;
 			  }
 
 			  void render() {
 			    // Draw a triangle rotated in the direction of velocity
 			    float theta = vel.heading2D() + radians(90);
-			    fill(200);
-			    stroke(255);
+			    fill(204, 102, 0);
+			    stroke(204, 102, 0);
 			    pushMatrix();
 			    translate(loc.x,loc.y);
 			    rotate(theta);
@@ -223,6 +224,16 @@
 			    if (loc.y < -r) loc.y = height+r;
 			    if (loc.x > width+r) loc.x = -r;
 			    if (loc.y > height+r) loc.y = -r;
+			  }
+
+			  //draws line behind boid
+			  void boidPath() {
+			  	//console.log('boidPath called');
+			  	//ls++;
+			  	int rand1 = random(loc.x, loc.x - 10);
+			  	int rand2 = random(loc.y,loc.y - 10);
+			  	//bezier(loc.x, loc.y, loc.x+30, loc.y+30, loc.x-30, loc.y-30,  loc.x, loc.y);
+			    line(loc.x, loc.y, rand1, rand2);
 			  }
 
 			  // Separation
@@ -481,6 +492,20 @@
 	   if(timeOut != null) clearTimeout(timeOut);
 	   timeOut = setTimeout(func, 100);
 	}
+
+	$(function() {
+    	console.log( "ready!" );
+    	var images = ['bg-1.png', 'bg-2.png', 'bg-3.png', 'bg-4.png'];
+    	var bg = $('html');
+		
+		bg.hide();
+		bg.css({'background-image': 'url(img/' + images[Math.floor(Math.random() * images.length)] + ')'});
+
+		bg.fadeIn(700);
+
+	});
+
+
 </script>
 
 </body>
