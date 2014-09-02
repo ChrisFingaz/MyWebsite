@@ -8,14 +8,17 @@ body {
   .main h1 {
     font-family: "Lobster", Georgia;
     font-size: em(60px);
-    color: #000; }
+    color: #FFF;
+    text-align: center; }
   .main h2 {
     font-family: "Raleway", Arial, sans-serif;
     font-size: em(36px);
-    color: #000; }
+    color: #FFF;
+    text-align: center; }
   .main p {
     font-family: "Raleway", Arial, sans-serif;
     font-size: em(14px);
-    color: #000; }
+    color: #FFF;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
