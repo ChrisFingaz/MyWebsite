@@ -8,15 +8,17 @@ $drop-shadow:rgba(0,0,0,0.75);
 // Variables __________________________________________________________________
 $base-font-size: 16px;
 
-$h1-font-size: em(60px);
-$h2-font-size: em(36px);
-$p-font-size: em(14px);
+$h1-font-size: 60px;
+$h2-font-size: 36px;
+$p-font-size: 14px;
 
 $h1-font: 'Lobster', Georgia;
 $h2-font: 'Raleway', Arial, sans-serif;
 $p-font: 'Raleway', Arial, sans-serif;
 
 $primary-color: #FFF;
+
+$box-shadow: 7px 7px 10px $drop-shadow;
 
 // Functions __________________________________________________________________
 

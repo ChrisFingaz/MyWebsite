@@ -10,16 +10,18 @@ body {
 
 	h1 {
 		font-family: $h1-font;
-		font-size: $h1-font-size;
 		color: $primary-color;
+		font-size: $h1-font-size;
 		text-align: center;
+		text-shadow: $box-shadow;
 	}
 
 	h2 {
 		font-family: $h2-font;
-		font-size: $h2-font-size;
 		color: $primary-color;
+		font-size: $h2-font-size;
 		text-align: center;
+		text-shadow: $box-shadow;
 	}
 
 	p {
@@ -30,6 +32,15 @@ body {
 	}
 
 	.main-content {
+
+		text-decoration: none;
+
+		ul {
+			
+			li {
+				list-style-type: none;
+			}
+		}
 
 	}
 

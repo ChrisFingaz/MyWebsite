@@ -7,18 +7,24 @@ body {
   width: 800px; }
   .main h1 {
     font-family: "Lobster", Georgia;
-    font-size: em(60px);
     color: #FFF;
-    text-align: center; }
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75); }
   .main h2 {
     font-family: "Raleway", Arial, sans-serif;
-    font-size: em(36px);
     color: #FFF;
-    text-align: center; }
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75); }
   .main p {
     font-family: "Raleway", Arial, sans-serif;
-    font-size: em(14px);
+    font-size: 14px;
     color: #FFF;
     text-align: center; }
+  .main .main-content {
+    text-decoration: none; }
+    .main .main-content ul li {
+      list-style-type: none; }
 
 /*# sourceMappingURL=main.css.map */
