@@ -17,16 +17,9 @@ $h2-font: 'Raleway', Arial, sans-serif;
 $p-font: 'Raleway', Arial, sans-serif;
 
 $primary-color: #FFF;
+$hover-color: #9cf7ff;
 
 $box-shadow: 7px 7px 10px $drop-shadow;
 
-// Functions __________________________________________________________________
+$bottom-space: 20px;
 
-// $px === the font-size you want
-// $base === the font-size, in pixels, of whatever 1em equals in the context
-// of the element in question. if left blank, it defaults to 10px
-// multiplying by 1em just converts the quotient to em
-
-@function em($px, $base: $base-font-size) {
-    @return ($px / $base) * 1em;
-}

@@ -31,17 +31,34 @@ body {
 		text-align: center;
 	}
 
-	.main-content {
+	.accordion{ 
+		
+	   dt {
+	      a {
+	        display: block;
+			font-family: $h2-font;
+			color: $primary-color;
+			font-size: $h2-font-size;
+			text-align: center;
+			text-shadow: $box-shadow;
+			text-decoration: none;
+			margin: 0 0 $bottom-space 0;
+	      }
 
-		text-decoration: none;
+	      a:hover {
+	      	color: $hover-color;
+	      }
+	   }
 
-		ul {
-			
-			li {
-				list-style-type: none;
+	   dd {
+			p {
+				font-family: $p-font;
+				font-size: $p-font-size;
+				color: $primary-color;
+				margin: 0 0 $bottom-space 0;
+				line-height: 200%;
 			}
 		}
-
 	}
 
 }

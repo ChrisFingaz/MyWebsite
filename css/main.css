@@ -22,9 +22,22 @@ body {
     font-size: 14px;
     color: #FFF;
     text-align: center; }
-  .main .main-content {
-    text-decoration: none; }
-    .main .main-content ul li {
-      list-style-type: none; }
+  .main .accordion dt a {
+    display: block;
+    font-family: "Raleway", Arial, sans-serif;
+    color: #FFF;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    margin: 0 0 20px 0; }
+  .main .accordion dt a:hover {
+    color: #9cf7ff; }
+  .main .accordion dd p {
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    margin: 0 0 20px 0;
+    line-height: 200%; }
 
 /*# sourceMappingURL=main.css.map */
