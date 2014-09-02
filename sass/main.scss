@@ -42,7 +42,7 @@ body {
 			text-align: center;
 			text-shadow: $box-shadow;
 			text-decoration: none;
-			margin: 0 0 $bottom-space 0;
+			margin: 0 0 $bottom-nav-space 0;
 	      }
 
 	      a:hover {
@@ -51,12 +51,32 @@ body {
 	   }
 
 	   dd {
+
+	   		margin: 0;
+
+	   		img.about-img {
+	   			display: block;
+	   			margin: 0 auto;
+	   			margin-bottom: $primary-margin;
+	   		}
+
 			p {
 				font-family: $p-font;
 				font-size: $p-font-size;
 				color: $primary-color;
-				margin: 0 0 $bottom-space 0;
+				margin: 0 auto;
+				margin-bottom: $bottom-nav-space;
 				line-height: 200%;
+				text-align: center;
+
+				a {
+					text-decoration: none;
+					color: $hover-color;
+				}
+
+				a:hover {
+					color: $primary-color;
+				}
 			}
 		}
 	}

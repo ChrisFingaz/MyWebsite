@@ -33,11 +33,24 @@ body {
     margin: 0 0 20px 0; }
   .main .accordion dt a:hover {
     color: #9cf7ff; }
-  .main .accordion dd p {
-    font-family: "Raleway", Arial, sans-serif;
-    font-size: 14px;
-    color: #FFF;
-    margin: 0 0 20px 0;
-    line-height: 200%; }
+  .main .accordion dd {
+    margin: 0; }
+    .main .accordion dd img.about-img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+    .main .accordion dd p {
+      font-family: "Raleway", Arial, sans-serif;
+      font-size: 14px;
+      color: #FFF;
+      margin: 0 auto;
+      margin-bottom: 20px;
+      line-height: 200%;
+      text-align: center; }
+      .main .accordion dd p a {
+        text-decoration: none;
+        color: #9cf7ff; }
+      .main .accordion dd p a:hover {
+        color: #FFF; }
 
 /*# sourceMappingURL=main.css.map */
