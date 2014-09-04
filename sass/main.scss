@@ -31,7 +31,7 @@ body {
 		text-align: center;
 	}
 
-	.accordion{ 
+	.accordion { 
 		
 	   dt {
 	      a {
@@ -79,6 +79,48 @@ body {
 				}
 			}
 		}
+	}
+
+}
+
+.footer {
+	text-align:center;
+	
+	ul {
+
+		margin: 0px;
+		padding: 0px;
+		padding-left:10px;
+
+		li {
+			padding: 10px;
+			margin-right: 10px;
+			display: inline-block;
+			background: #111;
+			border: 1px solid;
+    		border-radius: 10px;
+
+			a {
+				font-family: $a-font;
+				font-size: 12px;
+				text-decoration: none;
+				color: $hover-color;
+			}
+
+			a:hover {
+				font-family: $a-font;
+				font-size: 12px;
+				text-decoration: none;
+				color: $primary-color;
+			}
+		}
+
+		li:hover {
+			background:#444;
+			border: 1px solid;
+    		border-radius: 10px;
+		}
+
 	}
 
 }
