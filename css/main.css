@@ -52,6 +52,30 @@ body {
         color: #9cf7ff; }
       .main .accordion dd p a:hover {
         color: #FFF; }
+  .main .accordion .past-projects .project {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px; }
+    .main .accordion .past-projects .project img.thumb {
+      border: 1px solid;
+      border-color: #fff;
+      max-width: 250px;
+      max-height: 141px; }
+    .main .accordion .past-projects .project .project-description {
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 20px;
+      max-width: 510px; }
+      .main .accordion .past-projects .project .project-description h3 {
+        font-family: "Raleway", Arial, sans-serif;
+        font-size: 24px;
+        color: #FFF;
+        margin: 0;
+        margin-bottom: 10px; }
+      .main .accordion .past-projects .project .project-description p {
+        margin: 0;
+        text-align: left; }
 
 .footer {
   text-align: center; }

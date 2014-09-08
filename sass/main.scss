@@ -79,6 +79,45 @@ body {
 				}
 			}
 		}
+
+		.past-projects {
+
+			.project {
+	
+				width:100%;
+				background: rgba(0,0,0, 0.5);
+				padding:10px;
+				margin:10px;
+
+				img.thumb {
+					border: 1px solid;
+					border-color: #fff;
+					max-width: 250px;
+					max-height: 141px;
+				}
+
+				.project-description {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 20px;
+					max-width: 510px;
+
+					h3 {
+						font-family: $h3-font;
+						font-size: $h3-font-size;
+						color: $primary-color;
+						margin: 0;
+						margin-bottom: 10px;
+					}
+
+					p {
+						margin: 0;
+						text-align: left;
+					}
+				}
+			}
+
+		}
 	}
 
 }
