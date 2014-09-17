@@ -85,15 +85,21 @@ body {
 			.project {
 	
 				width:100%;
-				background: rgba(0,0,0, 0.5);
+				background: rgba(143,143,143, 0.5);
 				padding:10px;
 				margin:10px;
+				border-radius: $primary-border-radius;
+			    -moz-border-radius: $primary-border-radius;
+			    -webkit-border-radius: $primary-border-radius;
 
 				img.thumb {
 					border: 1px solid;
 					border-color: #fff;
 					max-width: 250px;
 					max-height: 141px;
+					border-radius: $primary-border-radius;
+				    -moz-border-radius: $primary-border-radius;
+				    -webkit-border-radius: $primary-border-radius;
 				}
 
 				.project-description {
@@ -107,12 +113,37 @@ body {
 						font-size: $h3-font-size;
 						color: $primary-color;
 						margin: 0;
-						margin-bottom: 10px;
 					}
 
 					p {
 						margin: 0;
+						margin-bottom: 10px;
+						margin-top: 10px;
 						text-align: left;
+					}
+
+					.skills-desc {
+						font-family: $p-font;
+						font-size: 18px;
+						color: #ccc;
+						margin: 5px 0 10px 0;
+					}
+
+					.link {
+
+						a {
+							font-family: $a-font;
+							font-size: 12px;
+							text-decoration: none;
+							color: $hover-color;
+						}
+
+						a:hover {
+							font-family: $a-font;
+							font-size: 12px;
+							text-decoration: none;
+							color: $primary-color;
+						}
 					}
 				}
 			}
