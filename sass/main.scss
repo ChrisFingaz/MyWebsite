@@ -1,0 +1,198 @@
+@import 'base';
+
+body {
+	background: $dark-grey;
+}
+
+.main {
+	margin: 0 auto;
+	width: 800px;
+
+	h1 {
+		font-family: $h1-font;
+		color: $primary-color;
+		font-size: $h1-font-size;
+		text-align: center;
+		text-shadow: $box-shadow;
+	}
+
+	h2 {
+		font-family: $h2-font;
+		color: $primary-color;
+		font-size: $h2-font-size;
+		text-align: center;
+		text-shadow: $box-shadow;
+	}
+
+	p {
+		font-family: $p-font;
+		font-size: $p-font-size;
+		color: $primary-color;
+		text-align: center;
+	}
+
+	.accordion { 
+		
+	   dt {
+	      a {
+	        display: block;
+			font-family: $h2-font;
+			color: $primary-color;
+			font-size: $h2-font-size;
+			text-align: center;
+			text-shadow: $box-shadow;
+			text-decoration: none;
+			margin: 0 0 $bottom-nav-space 0;
+	      }
+
+	      a:hover {
+	      	color: $hover-color;
+	      }
+	   }
+
+	   dd {
+
+	   		margin: 0;
+
+	   		img.about-img {
+	   			display: block;
+	   			margin: 0 auto;
+	   			margin-bottom: $primary-margin;
+	   		}
+
+			p {
+				font-family: $p-font;
+				font-size: $p-font-size;
+				color: $primary-color;
+				margin: 0 auto;
+				margin-bottom: $bottom-nav-space;
+				line-height: 200%;
+				text-align: center;
+
+				a {
+					text-decoration: none;
+					color: $hover-color;
+				}
+
+				a:hover {
+					color: $primary-color;
+				}
+			}
+		}
+
+		.past-projects {
+
+			.project {
+	
+				width:100%;
+				background: rgba(143,143,143, 0.5);
+				padding:10px;
+				margin:10px;
+				border-radius: $primary-border-radius;
+			    -moz-border-radius: $primary-border-radius;
+			    -webkit-border-radius: $primary-border-radius;
+
+				img.thumb {
+					border: 1px solid;
+					border-color: #fff;
+					max-width: 250px;
+					max-height: 141px;
+					border-radius: $primary-border-radius;
+				    -moz-border-radius: $primary-border-radius;
+				    -webkit-border-radius: $primary-border-radius;
+				}
+
+				.project-description {
+					display: inline-block;
+					vertical-align: top;
+					margin-left: 20px;
+					max-width: 510px;
+
+					h3 {
+						font-family: $h3-font;
+						font-size: $h3-font-size;
+						color: $primary-color;
+						margin: 0;
+					}
+
+					p {
+						margin: 0;
+						margin-bottom: 10px;
+						margin-top: 10px;
+						text-align: left;
+					}
+
+					.skills-desc {
+						font-family: $p-font;
+						font-size: 18px;
+						color: #ccc;
+						margin: 5px 0 10px 0;
+					}
+
+					.link {
+
+						a {
+							font-family: $a-font;
+							font-size: 12px;
+							text-decoration: none;
+							color: $hover-color;
+						}
+
+						a:hover {
+							font-family: $a-font;
+							font-size: 12px;
+							text-decoration: none;
+							color: $primary-color;
+						}
+					}
+				}
+			}
+
+		}
+	}
+
+}
+
+.footer {
+	text-align:center;
+	
+	ul {
+
+		margin: 0px;
+		padding: 0px;
+		padding-left:10px;
+
+		li {
+			padding: 10px;
+			margin-right: 10px;
+			display: inline-block;
+			background: #111;
+			border: 1px solid;
+    		border-radius: 10px;
+    		cursor: pointer;
+
+			a {
+				font-family: $a-font;
+				font-size: 12px;
+				text-decoration: none;
+				color: $hover-color;
+			}
+
+			a:hover {
+				font-family: $a-font;
+				font-size: 12px;
+				text-decoration: none;
+				color: $primary-color;
+			}
+		}
+
+		li:hover {
+			background:#444;
+			border: 1px solid;
+    		border-radius: 10px;
+    		cursor: pointer;
+		}
+
+	}
+
+}

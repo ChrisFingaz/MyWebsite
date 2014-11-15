@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fullscre",
+				"fullScreenStatus"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"act",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"actio",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"ac",
+				"Set Syntax: ActionScript 3"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/christopherlarsen/Google Drive/clwebsite/Website_WC"
+	],
+	"file_history":
+	[
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/airframework/src/mx/events/WindowExistenceEvent.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/NaturalDocs/Help/documenting/walkthrough.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/controllers/CaptionsController.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/captions/CaptionsBoxContainer.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/captions/CaptionsBox.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/documentation/search/ClassesA.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/Data/ClassHierarchy.nd",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/ant/properties/build.properties",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/documentation/files/com/vimeo/loopy/controllers/BackgroundController-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/samples/badge/badge.fla",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/winFonts.ser",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/Assets/SVG/HeartIcon_new.ai",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/documentation/index.html",
+		"/private/etc/hosts",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/NaturalDocs/Modules/NaturalDocs/Error.pm",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/framework/src/mx/effects/easing/easing_readme.txt",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/NaturalDocs/Help/examples.css",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/Loopy.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/enums/PlayerModeEnum.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/utils/PlayerStatusUtil.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/asdoc/templates/package-list.xslt",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/Data/PreviousSettings.nd",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/loopy.sublime-project",
+		"/Users/christopherlarsen/Google Drive/learningC/test.c",
+		"/Users/christopherlarsen/Projects/Scala/example/src/main/scala/example/Lists.scala",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/libs/air/applicationupdater.swc",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/Documents/Akamai Push URLs.txt",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/bin/aasdoc",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/assets/svg/closed_captions.svg",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/videoControls/CaptionsSelector.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/videoControls/CaptionsOption.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/videoControls/CaptionsButton.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/DetectionKit_012610/source/src/com/gskinner/utils/CodecAvailability.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/textLayout/src/flashx/textLayout/events/UpdateCompleteEvent.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/framework/src/mx/managers/PopUpData.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/textLayout/src/flashx/textLayout/property/UintProperty.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/Assets/SVG/UnlockIcon.ai",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/design/Assets/Vimeo.eps",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/assets/svg/VoteIcon.ai",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flash/video_1.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/enums/VideoPrivacyEnum.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/DetectionKit_012610/source/src/com/gskinner/utils/VideoProfiles.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/controllers/VideoControllerProgressive.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/bin/compc",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/DetectionKit_012610/source/libs/playerglobal.swc",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/bin/akamai/v2.11.3/docs/org/osmf/events/PlayEvent.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/moogaloop/views/captions/CaptionsView.as",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/footer.php",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/videolinks.php",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/css/main.css",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/crew.php",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/reels/reel1.php",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/reels/reel2.php",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/text/ResponsiveTextField-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/adobe/protocols/dict/Response.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/vimeo/deco/text/ResponsiveTextField.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/framework/bundles/da_DK/SharedResources.properties",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/greensock/easing/RoughEase.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/README.md",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/gui/layout/RelativePosition-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/events/PlayerEvent.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/locale/de_DE/playerglobal_rb.swc",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/data/LoadingData.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/config/ApplicationConfig.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/models/ConfigModel.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/src/com/vimeo/loopy/libraries/ConfigurationManager.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/search/ClassesO.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/lib/commons-logging-NOTICE.txt",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/rpc/src/mx/rpc/Responder.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/development/Tools/assets/css/reset.css",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/ant/build/ant_build_moogaloop.xml",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/gui/layout/BoxModelSprite-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/gui/layout/BoxModel-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/framework/src/mx/containers/Box.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/greensock/easing/BackOut.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/vimeo/deco/gui/layout/Padding.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/gui/layout/Padding-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/frameworks/projects/framework/src/mx/states/AddItems.as",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/flex-sdks/4.1.0.16076/asdoc/templates/package-detail.xslt",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/documentation/files/Console-as.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/bin/akamai/HDCore-v3.1.0/docs/HDCore-3.1-asdoc/org/osmf/captioning/model/CaptionStyle.html",
+		"/Users/christopherlarsen/vimeo-projects/Loopy/libs/deco/src/com/greensock/plugins/CacheAsBitmapPlugin.as",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/saraf.php",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/DTProCrewSite/GIT_WorkingCopy/samantha.php",
+		"/Users/christopherlarsen/Library/Application Support/Spotify/Users/chrisfingaz-user/prefs",
+		"/Users/christopherlarsen/Library/Application Support/Spotify/Users/chrisfingaz-user/local-files.bnk",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/Main.as",
+		"/Users/christopherlarsen/Desktop/tfs/ScaleTextfield.as",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/ba/ctrls/ProcessCtrl.as",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/ba/ctrls/UserProcessCtrl.as",
+		"/Users/christopherlarsen/Pictures/Dangelo_Thompson/MainSite/production/14_0101/portfolio.xml",
+		"/Users/christopherlarsen/Pictures/Sublime-Additions/clickmap/README.md",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/ba/Main.as",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/ba/ctrls/AnalysisCtrl.as",
+		"/Users/christopherlarsen/Dropbox/Beauty Advisor/src/as/ba/services/DataService.as",
+		"/Users/christopherlarsen/Desktop/Default (OSX).sublime-mousemap"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/christopherlarsen/vimeo-projects/Player",
+			"/Users/christopherlarsen/vimeo-projects/Loopy/src",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Moog",
+			"vtt",
+			"webvtt",
+			"captions",
+			"webvtt",
+			"moog",
+			"ryan",
+			"WebVTT",
+			"textTrack",
+			"activeCues",
+			"changeTextTrack",
+			"portrait",
+			"PORTRAIT",
+			"portrait",
+			"badge",
+			"videoInfoView",
+			"videoInfoHeader",
+			"crew-sta",
+			"content-bar",
+			"content",
+			"time",
+			"updateActiveCueList",
+			"progressData",
+			"Padding",
+			"PADDING",
+			"PlayerStatusUtil",
+			"vicktor",
+			"tomy"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "christopherlarsen.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"web",
+				"libs/solarite-as3/src/org/solarite/media/parsers/WebVTTParser.as"
+			],
+			[
+				"captions",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsBoxContainer.as"
+			],
+			[
+				"capt",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsView.as"
+			],
+			[
+				"infohe",
+				"src/com/vimeo/moogaloop/views/videoInfo/VideoInfoHeader.as"
+			],
+			[
+				"error",
+				"src/com/vimeo/moogaloop/views/overlays/ErrorOverlayView.as"
+			],
+			[
+				"playermod",
+				"src/com/vimeo/loopy/enums/PlayerModeEnum.as"
+			],
+			[
+				"application",
+				"src/com/vimeo/loopy/config/ApplicationConfig.as"
+			],
+			[
+				"captio",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsBoxContainer.as"
+			],
+			[
+				"caption",
+				"src/com/vimeo/loopy/controllers/CaptionsController.as"
+			],
+			[
+				"playerstat",
+				"src/com/vimeo/loopy/utils/PlayerStatusUtil.as"
+			],
+			[
+				"cap",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsBox.as"
+			],
+			[
+				"responsi",
+				"libs/deco/src/com/vimeo/deco/text/ResponsiveTextField.as"
+			],
+			[
+				"respon",
+				"libs/deco/src/com/vimeo/deco/text/ResponsiveTextField.as"
+			],
+			[
+				"pref",
+				"src/com/vimeo/loopy/libraries/PreferenceHandler.as"
+			],
+			[
+				"conf",
+				"src/com/vimeo/loopy/models/ConfigModel.as"
+			],
+			[
+				"config",
+				"src/com/vimeo/loopy/libraries/ConfigurationManager.as"
+			],
+			[
+				"boxmod",
+				"libs/deco/src/com/vimeo/deco/gui/layout/BoxModel.as"
+			],
+			[
+				"padding",
+				"libs/deco/src/com/vimeo/deco/gui/layout/Padding.as"
+			],
+			[
+				"padd",
+				"libs/deco/src/com/vimeo/deco/gui/layout/Padding.as"
+			],
+			[
+				"captionsbox",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsBoxContainer.as"
+			],
+			[
+				"captionsview",
+				"src/com/vimeo/moogaloop/views/captions/CaptionsView.as"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
