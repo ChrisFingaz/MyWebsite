@@ -4,7 +4,15 @@
     
   $('.accordion > dt > a').click(function() {
     allPanels.slideUp();
-    $(this).parent().next().slideDown();
+
+    var currentTarget = $(this).parent().next();
+
+    if (currentTarget.css('display') == 'none') {
+    	currentTarget.slideDown();
+    } else {
+    	currentTarget.slideUp();
+    }
+    
     return false;
   });
 
