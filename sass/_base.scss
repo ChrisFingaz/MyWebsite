@@ -4,24 +4,24 @@ $sky-blue: #00b2ee;
 $drop-shadow:rgba(0,0,0,0.75);
 
 // Google Fonts _______________________________________________________________
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 // Variables __________________________________________________________________
 $base-font-size: 16px;
 
-$h1-font-size: 60px;
+$h1-font-size: 40px;
 $h2-font-size: 36px;
 $h3-font-size: 21px;
 $p-font-size: 14px;
 
-$h1-font: 'Ubuntu', Arial, sans-serif;
-$h2-font:  Arial, sans-serif;
-$h3-font:  Arial, sans-serif;
-$p-font:  Arial, sans-serif;
-$a-font: Verdana, sans-serif;
+$h1-font: 'Roboto', Arial, sans-serif;
+$h2-font: 'Roboto', Arial, sans-serif;
+$h3-font: 'Roboto',Arial, sans-serif;
+$p-font: 'Roboto',Arial, sans-serif;
+$a-font: 'Roboto',Verdana, sans-serif;
 
 
-$primary-color: #FFF;
+$primary-color: #eee;
 $hover-color: #9cf7ff;
 
 $box-shadow: 7px 7px 10px $drop-shadow;

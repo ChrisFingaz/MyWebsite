@@ -22,34 +22,42 @@ body {
 		font-size: $h1-font-size;
 		background: rgba(0,0,0,0.75);
 		line-height: 100%;
+		border: 1px solid;
+		border-color: #000;
+    	border-radius: 10px;
 	}
 
 	h2 {
 		font-family: $h2-font;
 		color: $primary-color;
 		font-size: $h2-font-size;
+		font-weight: 100;
 	}
 
 	p {
 		font-family: $p-font;
 		font-size: $p-font-size;
 		color: $primary-color;
+		font-weight: 100;
 	}
 
 	.accordion { 
 
 		margin: 0 0 0 10px;
-		width: 515px;
+		width: 347px;
 		background: rgba(0,0,0,0.75);
 		padding: 10px 0 10px 10px;
+		border: 1px solid;
+    	border-radius: 10px;
 		
 	   dt {
 
 	      a {
 	        display: block;
-			font-family: $h2-font;
+			font-family: $h3-font;
 			color: $primary-color;
 			font-size: $h3-font-size;
+			font-weight: 100;
 			text-decoration: none;
 			margin: 0 0 $bottom-nav-space 0;
 	      }
