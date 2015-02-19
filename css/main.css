@@ -1,51 +1,56 @@
-@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 body {
   background: #00b2ee;
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  padding: 0;
+  margin: 0; }
 
-.main {
-  width: 800px; }
-  .main h1 {
-    font-family: "Lobster", Georgia;
-    color: #FFF;
-    font-size: 60px;
-    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75); }
-  .main h2 {
-    font-family: "Raleway", Arial, sans-serif;
-    color: #FFF;
-    font-size: 36px;
-    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75); }
-  .main p {
-    font-family: "Raleway", Arial, sans-serif;
-    font-size: 14px;
-    color: #FFF; }
+.main h1 {
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Ubuntu", Arial, sans-serif;
+  color: #FFF;
+  font-size: 60px;
+  background: rgba(0, 0, 0, 0.75);
+  line-height: 100%; }
+.main h2 {
+  font-family: Arial, sans-serif;
+  color: #FFF;
+  font-size: 36px; }
+.main p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #FFF; }
+.main .accordion {
+  margin: 0 0 0 10px;
+  width: 515px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 10px 0 10px 10px; }
   .main .accordion dt a {
     display: block;
-    font-family: "Raleway", Arial, sans-serif;
+    font-family: Arial, sans-serif;
     color: #FFF;
-    font-size: 36px;
-    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.75);
+    font-size: 21px;
     text-decoration: none;
     margin: 0 0 20px 0; }
   .main .accordion dt a:hover {
     color: #9cf7ff; }
   .main .accordion dd {
-    margin: 0; }
-    .main .accordion dd img.about-img {
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 10px; }
+    margin: 0;
+    background: rgba(0, 0, 0, 0.75); }
     .main .accordion dd p {
-      font-family: "Raleway", Arial, sans-serif;
+      font-family: Arial, sans-serif;
       font-size: 14px;
       color: #FFF;
-      margin: 0 auto;
+      margin-left: 20px;
       margin-bottom: 20px;
-      line-height: 200%; }
+      line-height: 200%;
+      padding: 10px; }
       .main .accordion dd p a {
         text-decoration: none;
         color: #9cf7ff; }
@@ -73,8 +78,8 @@ body {
       margin-left: 20px;
       max-width: 510px; }
       .main .accordion .past-projects .project .project-description h3 {
-        font-family: "Raleway", Arial, sans-serif;
-        font-size: 24px;
+        font-family: Arial, sans-serif;
+        font-size: 21px;
         color: #FFF;
         margin: 0; }
       .main .accordion .past-projects .project .project-description p {
@@ -83,7 +88,7 @@ body {
         margin-top: 10px;
         text-align: left; }
       .main .accordion .past-projects .project .project-description .skills-desc {
-        font-family: "Raleway", Arial, sans-serif;
+        font-family: Arial, sans-serif;
         font-size: 18px;
         color: #ccc;
         margin: 5px 0 10px 0; }
