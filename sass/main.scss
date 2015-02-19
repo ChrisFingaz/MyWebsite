@@ -1,18 +1,21 @@
 @import 'base';
 
 body {
-	background: $dark-grey;
+	background: $sky-blue;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .main {
-	margin: 0 auto;
 	width: 800px;
 
 	h1 {
 		font-family: $h1-font;
 		color: $primary-color;
 		font-size: $h1-font-size;
-		text-align: center;
 		text-shadow: $box-shadow;
 	}
 
@@ -20,7 +23,6 @@ body {
 		font-family: $h2-font;
 		color: $primary-color;
 		font-size: $h2-font-size;
-		text-align: center;
 		text-shadow: $box-shadow;
 	}
 
@@ -28,7 +30,6 @@ body {
 		font-family: $p-font;
 		font-size: $p-font-size;
 		color: $primary-color;
-		text-align: center;
 	}
 
 	.accordion { 
@@ -39,7 +40,6 @@ body {
 			font-family: $h2-font;
 			color: $primary-color;
 			font-size: $h2-font-size;
-			text-align: center;
 			text-shadow: $box-shadow;
 			text-decoration: none;
 			margin: 0 0 $bottom-nav-space 0;
@@ -67,7 +67,6 @@ body {
 				margin: 0 auto;
 				margin-bottom: $bottom-nav-space;
 				line-height: 200%;
-				text-align: center;
 
 				a {
 					text-decoration: none;
@@ -154,7 +153,6 @@ body {
 }
 
 .footer {
-	text-align:center;
 	
 	ul {
 
