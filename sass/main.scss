@@ -11,6 +11,12 @@ body {
 	margin: 0;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .main {
 	
 	text-align: center;
@@ -28,6 +34,7 @@ body {
 		font-family: $h2-font;
 		color: $primary-color;
 		font-size: $h2-font-size;
+		width: auto;
 		font-weight: 100;
 	}
 
@@ -54,13 +61,18 @@ body {
 
 		.description {
 			width: 40%;
-			display: inline-block;
+			float: left;
 		}
 		
 		.gallery {
 			width: 40%;
 			display: inline-block;
 			float: right;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
 		}
 		
 		.work-experience {
