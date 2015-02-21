@@ -1,24 +1,27 @@
 // Colors _____________________________________________________________________
 $dark-grey: #3b3b3b;
 $sky-blue: #00b2ee;
+$black: #000000;
+$white: #FFF;
 $drop-shadow:rgba(0,0,0,0.75);
 
 // Google Fonts _______________________________________________________________
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300);
 
 // Variables __________________________________________________________________
 $base-font-size: 16px;
 
-$h1-font-size: 40px;
-$h2-font-size: 36px;
+$h1-font-size: 60px;
+$h2-font-size: 26px;
 $h3-font-size: 21px;
-$p-font-size: 14px;
+$p-font-size: 12px;
 
-$h1-font: 'Roboto', Arial, sans-serif;
-$h2-font: 'Roboto', Arial, sans-serif;
-$h3-font: 'Roboto',Arial, sans-serif;
-$p-font: 'Roboto',Arial, sans-serif;
-$a-font: 'Roboto',Verdana, sans-serif;
+$h1-font: 'Lato', Arial, sans-serif;
+$h2-font: 'Merriweather', Arial, sans-serif;
+$h3-font: 'Merriweather',Arial, sans-serif;
+$p-font: 'Merriweather',Arial, sans-serif;
+$a-font: 'Merriweather',Verdana, sans-serif;
 
 
 $primary-color: #eee;

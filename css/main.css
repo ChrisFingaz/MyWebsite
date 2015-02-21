@@ -1,121 +1,63 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300);
 body {
   background: #00b2ee;
   background-image: url(../img/bg.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom center;
   background-attachment: fixed;
   background-size: cover;
   padding: 0;
   margin: 0; }
 
-.main h1 {
-  margin: 10px;
-  padding: 10px;
-  display: inline-block;
-  font-family: "Roboto", Arial, sans-serif;
-  color: #eee;
-  font-size: 40px;
-  background: rgba(0, 0, 0, 0.75);
-  line-height: 100%;
-  border: 1px solid;
-  border-color: #000;
-  border-radius: 10px; }
-.main h2 {
-  font-family: "Roboto", Arial, sans-serif;
-  color: #eee;
-  font-size: 36px;
-  font-weight: 100; }
-.main p {
-  font-family: "Roboto", Arial, sans-serif;
-  font-size: 14px;
-  color: #eee;
-  font-weight: 100; }
-.main .accordion {
-  margin: 0 0 0 10px;
-  width: 347px;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 10px 0 10px 10px;
-  border: 1px solid;
-  border-radius: 10px; }
-  .main .accordion dt a {
-    display: block;
-    font-family: "Roboto", Arial, sans-serif;
-    color: #eee;
-    font-size: 21px;
-    font-weight: 100;
-    text-decoration: none;
-    margin: 0 0 20px 0; }
-  .main .accordion dt a:hover {
-    color: #9cf7ff; }
-  .main .accordion dd {
+.main {
+  text-align: center; }
+  .main h1 {
     margin: 0;
-    background: rgba(0, 0, 0, 0.75); }
-    .main .accordion dd p {
-      font-family: "Roboto", Arial, sans-serif;
-      font-size: 14px;
-      color: #eee;
-      margin-left: 20px;
-      margin-bottom: 20px;
-      line-height: 200%;
-      padding: 10px; }
-      .main .accordion dd p a {
-        text-decoration: none;
-        color: #9cf7ff; }
-      .main .accordion dd p a:hover {
-        color: #eee; }
-  .main .accordion .past-projects .project {
-    width: 100%;
-    background: rgba(143, 143, 143, 0.5);
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px; }
-    .main .accordion .past-projects .project img.thumb {
-      border: 1px solid;
-      border-color: #fff;
-      max-width: 250px;
-      max-height: 141px;
-      border-radius: 10px;
-      -moz-border-radius: 10px;
-      -webkit-border-radius: 10px; }
-    .main .accordion .past-projects .project .project-description {
+    font-family: "Lato", Arial, sans-serif;
+    color: #eee;
+    font-size: 60px; }
+  .main h2 {
+    margin: 0;
+    font-family: "Merriweather", Arial, sans-serif;
+    color: #eee;
+    font-size: 26px;
+    font-weight: 100; }
+  .main p {
+    font-family: "Merriweather", Arial, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    font-weight: 100; }
+  .main .name {
+    margin-top: 10%;
+    margin-bottom: 10%; }
+  .main .content {
+    background: #000000;
+    margin-top: 10%;
+    text-align: left; }
+    .main .content .description {
+      width: 40%;
+      display: inline-block; }
+    .main .content .gallery {
+      width: 40%;
       display: inline-block;
-      vertical-align: top;
-      margin-left: 20px;
-      max-width: 510px; }
-      .main .accordion .past-projects .project .project-description h3 {
-        font-family: "Roboto", Arial, sans-serif;
-        font-size: 21px;
-        color: #eee;
-        margin: 0; }
-      .main .accordion .past-projects .project .project-description p {
-        margin: 0;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        text-align: left; }
-      .main .accordion .past-projects .project .project-description .skills-desc {
-        font-family: "Roboto", Arial, sans-serif;
-        font-size: 18px;
-        color: #ccc;
-        margin: 5px 0 10px 0; }
-      .main .accordion .past-projects .project .project-description .link a {
-        font-family: "Roboto", Verdana, sans-serif;
-        font-size: 12px;
-        text-decoration: none;
-        color: #9cf7ff; }
-      .main .accordion .past-projects .project .project-description .link a:hover {
-        font-family: "Roboto", Verdana, sans-serif;
-        font-size: 12px;
-        text-decoration: none;
-        color: #eee; }
+      float: right; }
+    .main .content .work-experience {
+      margin-bottom: 5%; }
+      .main .content .work-experience .employer {
+        padding: 5%; }
+      .main .content .work-experience .reverse {
+        background: #FFF; }
+        .main .content .work-experience .reverse h2 {
+          color: #000000; }
+        .main .content .work-experience .reverse p {
+          color: #000000; }
 
-.footer ul {
+.resulinks ul {
   margin: 0px;
   padding: 0px;
   padding-left: 10px; }
-  .footer ul li {
+  .resulinks ul li {
     padding: 10px;
     margin-right: 10px;
     display: inline-block;
@@ -123,17 +65,17 @@ body {
     border: 1px solid;
     border-radius: 10px;
     cursor: pointer; }
-    .footer ul li a {
-      font-family: "Roboto", Verdana, sans-serif;
+    .resulinks ul li a {
+      font-family: "Merriweather", Verdana, sans-serif;
       font-size: 12px;
       text-decoration: none;
       color: #9cf7ff; }
-    .footer ul li a:hover {
-      font-family: "Roboto", Verdana, sans-serif;
+    .resulinks ul li a:hover {
+      font-family: "Merriweather", Verdana, sans-serif;
       font-size: 12px;
       text-decoration: none;
       color: #eee; }
-  .footer ul li:hover {
+  .resulinks ul li:hover {
     background: #444;
     border: 1px solid;
     border-radius: 10px;

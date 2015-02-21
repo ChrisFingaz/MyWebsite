@@ -4,7 +4,7 @@ body {
 	background: $sky-blue;
 	background-image: url(../img/bg.jpg);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: bottom center;
 	background-attachment: fixed;
 	background-size: cover;
 	padding: 0;
@@ -12,22 +12,18 @@ body {
 }
 
 .main {
+	
+	text-align: center;
 
 	h1 {
-		margin: 10px;
-		padding: 10px;
-		display: inline-block;
+		margin:0;
 		font-family: $h1-font;
 		color: $primary-color;
 		font-size: $h1-font-size;
-		background: rgba(0,0,0,0.75);
-		line-height: 100%;
-		border: 1px solid;
-		border-color: #000;
-    	border-radius: 10px;
 	}
 
 	h2 {
+		margin:0;
 		font-family: $h2-font;
 		color: $primary-color;
 		font-size: $h2-font-size;
@@ -41,131 +37,58 @@ body {
 		font-weight: 100;
 	}
 
-	.accordion { 
-
-		margin: 0 0 0 10px;
-		width: 347px;
-		background: rgba(0,0,0,0.75);
-		padding: 10px 0 10px 10px;
-		border: 1px solid;
-    	border-radius: 10px;
+	.name {
 		
-	   dt {
+		margin-top: 10%;
+		margin-bottom: 10%;
 
-	      a {
-	        display: block;
-			font-family: $h3-font;
-			color: $primary-color;
-			font-size: $h3-font-size;
-			font-weight: 100;
-			text-decoration: none;
-			margin: 0 0 $bottom-nav-space 0;
-	      }
+	}
 
-	      a:hover {
-	      	color: $hover-color;
-	      }
-	   }
+	.content
+	{
 
-	   dd {
+		background: $black;
+		margin-top: 10%;
+		text-align: left;
 
-	   		margin: 0;
-			background: rgba(0,0,0,0.75);
-
-			p {
-				font-family: $p-font;
-				font-size: $p-font-size;
-				color: $primary-color;
-				margin-left: 20px;
-				margin-bottom: $bottom-nav-space;
-				line-height: 200%;
-				padding: 10px;
-
-				a {
-					text-decoration: none;
-					color: $hover-color;
-				}
-
-				a:hover {
-					color: $primary-color;
-				}
-			}
+		.description {
+			width: 40%;
+			display: inline-block;
 		}
+		
+		.gallery {
+			width: 40%;
+			display: inline-block;
+			float: right;
+		}
+		
+		.work-experience {
+			
+			margin-bottom: 5%;
+			
+			.employer {
+				padding: 5%;
+			}
 
-		.past-projects {
+			.reverse {
+				background: $white;
 
-			.project {
-	
-				width:100%;
-				background: rgba(143,143,143, 0.5);
-				padding:10px;
-				margin:10px;
-				border-radius: $primary-border-radius;
-			    -moz-border-radius: $primary-border-radius;
-			    -webkit-border-radius: $primary-border-radius;
-
-				img.thumb {
-					border: 1px solid;
-					border-color: #fff;
-					max-width: 250px;
-					max-height: 141px;
-					border-radius: $primary-border-radius;
-				    -moz-border-radius: $primary-border-radius;
-				    -webkit-border-radius: $primary-border-radius;
+				h2 {
+					color: $black;
 				}
 
-				.project-description {
-					display: inline-block;
-					vertical-align: top;
-					margin-left: 20px;
-					max-width: 510px;
-
-					h3 {
-						font-family: $h3-font;
-						font-size: $h3-font-size;
-						color: $primary-color;
-						margin: 0;
-					}
-
-					p {
-						margin: 0;
-						margin-bottom: 10px;
-						margin-top: 10px;
-						text-align: left;
-					}
-
-					.skills-desc {
-						font-family: $p-font;
-						font-size: 18px;
-						color: #ccc;
-						margin: 5px 0 10px 0;
-					}
-
-					.link {
-
-						a {
-							font-family: $a-font;
-							font-size: 12px;
-							text-decoration: none;
-							color: $hover-color;
-						}
-
-						a:hover {
-							font-family: $a-font;
-							font-size: 12px;
-							text-decoration: none;
-							color: $primary-color;
-						}
-					}
+				p {
+					color: $black;
 				}
 			}
 
 		}
+
 	}
 
 }
 
-.footer {
+.resulinks {
 	
 	ul {
 
