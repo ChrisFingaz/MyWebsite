@@ -30,21 +30,39 @@ body {
     font-size: 30px;
     width: auto;
     font-weight: 100; }
+  .main h3 {
+    margin: 0;
+    font-family: "Merriweather", Arial, sans-serif;
+    color: #eee;
+    font-size: 26px;
+    width: auto;
+    font-weight: 100; }
   .main p {
     font-family: "Merriweather", Arial, sans-serif;
     font-size: 12px;
     color: #eee;
     font-weight: 100; }
+  .main a:link, .main a:visited {
+    text-decoration: none;
+    color: #9cf7ff; }
+  .main a:hover {
+    color: #eee; }
   .main .name {
     margin-top: 10%;
     margin-bottom: 10%; }
   .main .content {
     background: #000000;
     margin-top: 10%;
+    padding-top: 2%;
     text-align: left; }
+    .main .content .section-title {
+      margin: 0 0 0 2%; }
+      .main .content .section-title h2 {
+        font-family: 'Lato', Arial, sans-serif; }
     .main .content .description {
       width: 40%;
-      float: left; }
+      float: left;
+      line-height: 150%; }
     .main .content .gallery {
       width: 40%;
       display: inline-block;
@@ -58,7 +76,7 @@ body {
         padding: 5%; }
       .main .content .work-experience .reverse {
         background: #FFF; }
-        .main .content .work-experience .reverse h2 {
+        .main .content .work-experience .reverse h3 {
           color: #000000; }
         .main .content .work-experience .reverse p {
           color: #000000; }
