@@ -1,26 +1,30 @@
 // Colors _____________________________________________________________________
 $dark-grey: #3b3b3b;
+$sky-blue: #00b2ee;
+$black: #000000;
+$white: #FFF;
 $drop-shadow:rgba(0,0,0,0.75);
 
 // Google Fonts _______________________________________________________________
-@import url(http://fonts.googleapis.com/css?family=Lobster|Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,700);
 
 // Variables __________________________________________________________________
 $base-font-size: 16px;
 
 $h1-font-size: 60px;
-$h2-font-size: 36px;
-$h3-font-size: 24px;
-$p-font-size: 14px;
+$h2-font-size: 30px;
+$h3-font-size: 26px;
+$p-font-size: 12px;
 
-$h1-font: 'Lobster', Georgia;
-$h2-font: 'Raleway', Arial, sans-serif;
-$h3-font: 'Raleway', Arial, sans-serif;
-$p-font: 'Raleway', Arial, sans-serif;
-$a-font: Verdana, sans-serif;
+$h1-font: 'Lato', Arial, sans-serif;
+$h2-font: 'Merriweather', Arial, sans-serif;
+$h3-font: 'Merriweather',Arial, sans-serif;
+$p-font: 'Merriweather',Arial, sans-serif;
+$a-font: 'Merriweather',Verdana, sans-serif;
 
 
-$primary-color: #FFF;
+$primary-color: #eee;
 $hover-color: #9cf7ff;
 
 $box-shadow: 7px 7px 10px $drop-shadow;
