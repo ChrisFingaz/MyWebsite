@@ -106,8 +106,6 @@ body {
 		}
 		
 		.work-experience {
-
-			margin-bottom: 5%;
 			
 			.employer {
 				padding: 5%;
@@ -127,6 +125,13 @@ body {
 
 		}
 
+	}
+
+	.footer {
+		width: 96%;
+		background: $black;
+		text-align: left;
+		padding: 2%;
 	}
 
 }

@@ -70,16 +70,19 @@ body {
       .main .content .gallery img {
         max-width: 100%;
         height: auto; }
-    .main .content .work-experience {
-      margin-bottom: 5%; }
-      .main .content .work-experience .employer {
-        padding: 5%; }
-      .main .content .work-experience .reverse {
-        background: #FFF; }
-        .main .content .work-experience .reverse h3 {
-          color: #000000; }
-        .main .content .work-experience .reverse p {
-          color: #000000; }
+    .main .content .work-experience .employer {
+      padding: 5%; }
+    .main .content .work-experience .reverse {
+      background: #FFF; }
+      .main .content .work-experience .reverse h3 {
+        color: #000000; }
+      .main .content .work-experience .reverse p {
+        color: #000000; }
+  .main .footer {
+    width: 96%;
+    background: #000000;
+    text-align: left;
+    padding: 2%; }
 
 .resulinks {
   margin-top: 25px; }
