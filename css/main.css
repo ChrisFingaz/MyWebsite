@@ -15,6 +15,15 @@ body {
   display: table;
   clear: both; }
 
+.project {
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 5px #aaa; }
+  .project a {
+    opacity: 1;
+    transition: all 300ms ease-out; }
+  .project a:hover {
+    opacity: 0.75; }
+
 .main {
   text-align: center; }
   .main h1 {
