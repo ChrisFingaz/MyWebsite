@@ -115,3 +115,46 @@ $(".open_fancybox_other").click(function() {
     return false;
     
 });
+
+$(".open_fancybox_freelance").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/galleries/freelance/bigbill_biglou.jpg',
+            title : 'Paintings and illustration'
+        },
+        {
+            href : 'img/galleries/freelance/banquets_1.jpg',
+            title : 'Vinyl 7inch cover'
+        },
+        {
+            href : 'img/galleries/freelance/banquets_2.jpg',
+            title : 'Full length vinyl layout'
+        },
+        {
+            href : 'img/galleries/freelance/banquets_3.jpg',
+            title : 'Illustration and flier layout for a show'           
+        },
+        {
+            href : 'img/galleries/freelance/ac.jpg',
+            title : 'Portfolio website design and build (HTML/CSS/JQuery'
+        },
+        {
+            href : 'img/galleries/freelance/tourmanager_app.jpg',
+            title : 'Design for an iOS app (unfinished)'
+        },
+        {
+            href : 'img/galleries/freelance/john_cash.jpg',
+            title : 'Mixed media painting (pen, oil)'
+        },
+        {
+            href : 'img/galleries/freelance/brazen.jpg',
+            title : 'Logo for a crossfit competition'
+        }
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
