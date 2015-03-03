@@ -140,10 +140,6 @@ $(".open_fancybox_freelance").click(function() {
             title : 'Portfolio website design and build (HTML/CSS/JQuery'
         },
         {
-            href : 'img/galleries/freelance/tourmanager_app.jpg',
-            title : 'Design for an iOS app (unfinished)'
-        },
-        {
             href : 'img/galleries/freelance/john_cash.jpg',
             title : 'Mixed media painting (pen, oil)'
         },
