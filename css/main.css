@@ -1,34 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,700);
 body {
   background: linear-gradient(357deg, #5bfaf8, #000000);
-  background-size: 200% 200%;
-  -webkit-animation: bodyBGAnimation 24s ease infinite;
-  -moz-animation: bodyBGAnimation 24s ease infinite;
-  animation: bodyBGAnimation 24s ease infinite;
   padding: 0;
   margin: 0; }
-@-webkit-keyframes bodyBGAnimation {
-  0% {
-    background-position: 44% 0%; }
-  50% {
-    background-position: 57% 100%; }
-  100% {
-    background-position: 44% 0%; } }
-@-moz-keyframes bodyBGAnimation {
-  0% {
-    background-position: 44% 0%; }
-  50% {
-    background-position: 57% 100%; }
-  100% {
-    background-position: 44% 0%; } }
-@keyframes bodyBGAnimation {
-  0% {
-    background-position: 44% 0%; }
-  50% {
-    background-position: 57% 100%; }
-  100% {
-    background-position: 44% 0%; } }
+
 .clearfix:after {
   content: "";
   display: table;
@@ -53,28 +28,34 @@ body {
     font-size: 60px; }
   .main h2 {
     margin: 0;
-    font-family: "Merriweather", Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     color: #eee;
-    font-size: 30px;
+    font-size: 42px;
     width: auto; }
   .main h3 {
     margin: 0;
-    font-family: "Merriweather", Arial, sans-serif;
+    font-family: "Lato", Arial, sans-serif;
     color: #eee;
-    font-size: 26px;
+    font-size: 33px;
     width: auto; }
   .main p {
-    font-family: "Merriweather", Arial, sans-serif;
-    font-size: 12px;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
     color: #eee;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 200%; }
     .main p .bold {
       font-weight: 700; }
+  .main .line {
+    margin: 10px 0 0 0;
+    background: #eee;
+    height: 1px;
+    width: auto; }
   .main a:link, .main a:visited {
     text-decoration: none;
     color: #9cf7ff; }
   .main a:hover {
-    color: #eee; }
+    color: #ccc; }
   .main .name {
     margin-top: 10%;
     margin-bottom: 10%; }
@@ -83,25 +64,26 @@ body {
     margin-top: 10%;
     padding-top: 2%;
     text-align: left; }
-    .main .content .section-title {
-      margin: 0 0 0 2%; }
-      .main .content .section-title h2 {
-        font-family: 'Lato', Arial, sans-serif; }
+    .main .content .section-title h2 {
+      font-family: 'Lato', Arial, sans-serif; }
     .main .content .description {
       width: 40%;
       float: left;
       line-height: 150%; }
     .main .content .gallery {
-      width: 40%;
+      width: 50%;
       display: inline-block;
       float: right; }
       .main .content .gallery img {
         max-width: 100%;
         height: auto; }
+    .main .content .work-experience .container {
+      margin: 0 auto;
+      max-width: 960px; }
     .main .content .work-experience .employer {
       padding: 5%; }
     .main .content .work-experience .reverse {
-      background: #FFF; }
+      background: #999; }
       .main .content .work-experience .reverse h3 {
         color: #000000; }
       .main .content .work-experience .reverse p {
@@ -114,30 +96,36 @@ body {
 
 .resulinks {
   margin-top: 25px; }
-  .resulinks ul {
-    margin: 0px;
-    padding: 0px; }
-    .resulinks ul li {
-      margin-right: 10px;
+  .resulinks .soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    margin: 0 auto; }
+    .resulinks .soc li {
       display: inline-block; }
-      .resulinks ul li a {
-        padding: 10px;
-        font-family: "Merriweather", Verdana, sans-serif;
-        font-size: 10px;
-        text-decoration: none;
-        color: #FFF;
-        background: rgba(0, 0, 0, 0.5);
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 5px;
-        cursor: pointer; }
-      .resulinks ul li a:hover {
-        font-family: "Merriweather", Verdana, sans-serif;
-        font-size: 10px;
-        text-decoration: none;
-        color: #FFF;
-        background: rgba(255, 255, 255, 0.5);
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 5px;
-        cursor: pointer; }
+    .resulinks .soc a, .resulinks .soc svg {
+      display: block; }
+    .resulinks .soc a {
+      position: relative;
+      color: #9cf7ff;
+      fill: #9cf7ff;
+      height: 50px;
+      width: 50px; }
+      .resulinks .soc a svg {
+        height: 100%;
+        width: 100%; }
+      .resulinks .soc a a:hover, .resulinks .soc a svg:hover {
+        color: #ccc;
+        fill: #ccc; }
+    .resulinks .soc em {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-top: -.75em;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      right: 0;
+      bottom: 0;
+      left: 0; }
 
 /*# sourceMappingURL=main.css.map */

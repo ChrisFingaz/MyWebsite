@@ -2,27 +2,6 @@
 
 body {
 	background: linear-gradient(357deg, #5bfaf8, #000000);
-	background-size: 200% 200%;
-
-	-webkit-animation: bodyBGAnimation 24s ease infinite;
-	-moz-animation: bodyBGAnimation 24s ease infinite;
-	animation: bodyBGAnimation 24s ease infinite;
-
-	@-webkit-keyframes bodyBGAnimation {
-	    0%{background-position:44% 0%}
-	    50%{background-position:57% 100%}
-	    100%{background-position:44% 0%}
-	}
-	@-moz-keyframes bodyBGAnimation {
-	    0%{background-position:44% 0%}
-	    50%{background-position:57% 100%}
-	    100%{background-position:44% 0%}
-	}
-	@keyframes bodyBGAnimation { 
-	    0%{background-position:44% 0%}
-	    50%{background-position:57% 100%}
-	    100%{background-position:44% 0%}
-	}
 
 	padding: 0;
 	margin: 0;
@@ -83,19 +62,27 @@ body {
 		font-size: $p-font-size;
 		color: $primary-color;
 		font-weight: 300;
+		line-height: 200%;
 
 		.bold {
 			font-weight: 700;
 		}
 	}
 
+	.line {
+		margin: 10px 0 0 0;
+		background: $primary-color;
+		height: 1px;
+		width: auto;
+	}
+
 	a:link, a:visited {
 		text-decoration: none;
-		color: $hover-color;
+		color: $link-color;
 	}
 
 	a:hover {
-		color: $primary-color;
+		color: $hover-color;
 	}
 
 	.name {
@@ -114,8 +101,6 @@ body {
 		text-align: left;
 
 		.section-title {
-			margin: 0 0 0 2%;
-
 			h2 {
 				font-family: 'Lato', Arial, sans-serif;
 			}
@@ -128,7 +113,7 @@ body {
 		}
 		
 		.gallery {
-			width: 40%;
+			width: 50%;
 			display: inline-block;
 			float: right;
 
@@ -139,13 +124,19 @@ body {
 		}
 		
 		.work-experience {
-			
+
+			.container {
+				margin: 0 auto;
+
+				max-width: 960px;
+			}
+
 			.employer {
 				padding: 5%;
 			}
 
 			.reverse {
-				background: $white;
+				background: #999;
 
 				h3 {
 					color: $black;
@@ -172,40 +163,92 @@ body {
 .resulinks {
 
 	margin-top: 25px;
-	
-	ul {
 
-		margin: 0px;
-		padding: 0px;
+	.soc {
+		display: block;
+		font-size: 0;
+		list-style: none;
+		margin: 0 auto;
+		// padding: 48px; // IE8
+		// padding: 4.8rem;
+		//text-align: center;
+
 
 		li {
-			margin-right: 10px;
 			display: inline-block;
+			//margin-right: 5px; // IE8
+		}
 
-			a {
-				padding: 10px;
-				font-family: $a-font;
-				font-size: 10px;
-				text-decoration: none;
-				color: $white;
-				background:rgba(0, 0, 0, 0.5);
-				border: 1px solid rgba(255,255,255,0.5);
-				border-radius: 5px;
-				cursor: pointer;
-			}
+		a, svg {
+			display: block;
+		}
+		a {
+			position: relative; // IE8
+			color: $link-color;
+			fill: $link-color;
+			height: 50px; // IE8
+			width: 50px; // IE8
+			svg {
+				height: 100%;
+				width: 100%;
+		}
 
-			a:hover {
-				font-family: $a-font;
-				font-size: 10px;
-				text-decoration: none;
-				color: $white;
-				background:rgba(255,255,255,0.5);
-				border: 1px solid rgba(255,255,255,0.5);;
-				border-radius: 5px;
-				cursor: pointer;
-			}
+		a:hover, svg:hover {
+			color: $hover-color;
+			fill: $hover-color;
+		}
+
+		}
+
+		// IE8:
+		em {
+			font-size: 14px;
+			line-height: 1.5;
+			margin-top: -.75em;
+			position: absolute;
+			text-align: center;
+			top: 50%;
+			right: 0;
+			bottom: 0;
+			left: 0;
 		}
 
 	}
+
+	
+	// ul {
+
+	// 	margin: 0px;
+	// 	padding: 0px;
+
+	// 	li {
+	// 		// margin-right: 10px;
+	// 		// display: inline-block;
+
+	// 		// a {
+	// 		// 	padding: 10px;
+	// 		// 	font-family: $a-font;
+	// 		// 	font-size: 10px;
+	// 		// 	text-decoration: none;
+	// 		// 	color: $white;
+	// 		// 	background:rgba(0, 0, 0, 0.5);
+	// 		// 	border: 1px solid rgba(255,255,255,0.5);
+	// 		// 	border-radius: 5px;
+	// 		// 	cursor: pointer;
+	// 		// }
+
+	// 		// a:hover {
+	// 		// 	font-family: $a-font;
+	// 		// 	font-size: 10px;
+	// 		// 	text-decoration: none;
+	// 		// 	color: $white;
+	// 		// 	background:rgba(255,255,255,0.5);
+	// 		// 	border: 1px solid rgba(255,255,255,0.5);;
+	// 		// 	border-radius: 5px;
+	// 		// 	cursor: pointer;
+	// 		// }
+	// 	}
+
+	// }
 
 }
