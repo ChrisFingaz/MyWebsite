@@ -2,6 +2,9 @@ $(".open_fancybox_vimeo").click(function() {
     
     $.fancybox.open([
         {
+            href : 'img/galleries/vimeo/vim_iOS.jpg'
+        },
+        {
             href : 'img/galleries/vimeo/player.jpg'
         },
         {
