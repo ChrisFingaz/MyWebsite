@@ -1,3 +1,17 @@
+$(".open_fancybox_cratebind").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/galleries/cratebind/stricct.jpg'
+        }
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
+
 $(".open_fancybox_vimeo").click(function() {
     
     $.fancybox.open([
