@@ -139,6 +139,10 @@ $(".open_fancybox_freelance").click(function() {
             title : 'Illustration and flier layout for a show'           
         },
         {
+            href : 'img/galleries/freelance/entropy1.jpg',
+            title : 'Illustration and design for album layout'           
+        },
+        {
             href : 'img/galleries/freelance/ac.jpg',
             title : 'Portfolio website design and build (HTML/CSS/JQuery'
         },
