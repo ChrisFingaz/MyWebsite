@@ -73,7 +73,8 @@ body {
     .main .content .gallery {
       width: 50%;
       display: inline-block;
-      float: right; }
+      float: right;
+      text-align: center; }
       .main .content .gallery img {
         max-width: 100%;
         height: auto; }

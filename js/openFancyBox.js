@@ -1,3 +1,26 @@
+$(".open_fancybox_bioworld").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/galleries/bioworld/fm1.jpg'
+        },
+                {
+            href : 'img/galleries/bioworld/fm2.jpg'
+        },
+                {
+            href : 'img/galleries/bioworld/fm3.jpg'
+        },
+                {
+            href : 'img/galleries/bioworld/fm4.jpg'
+        }
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
+
 $(".open_fancybox_cratebind").click(function() {
     
     $.fancybox.open([
