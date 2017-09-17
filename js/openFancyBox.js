@@ -160,37 +160,60 @@ $(".open_fancybox_freelance").click(function() {
     
     $.fancybox.open([
         {
-            href : 'img/galleries/freelance/bigbill_biglou.jpg',
-            title : 'Paintings and illustration'
+            href : 'img/galleries/freelance/entropy1.jpg',
+            title : 'Illustration and design for album layout'           
+        },
+        {
+            href : 'img/galleries/freelance/gnlabel.jpg',
+            title : 'Graphic Nature Label website design and front end development'
         },
         {
             href : 'img/galleries/freelance/banquets_1.jpg',
-            title : 'Vinyl 7inch cover'
+            title : '7inch album cover'
         },
         {
             href : 'img/galleries/freelance/banquets_2.jpg',
-            title : 'Full length vinyl layout'
+            title : 'Full length album layout'
         },
         {
             href : 'img/galleries/freelance/banquets_3.jpg',
             title : 'Illustration and flier layout for a show'           
         },
         {
-            href : 'img/galleries/freelance/entropy1.jpg',
-            title : 'Illustration and design for album layout'           
-        },
-        {
             href : 'img/galleries/freelance/ac.jpg',
             title : 'Portfolio website design and build (HTML/CSS/JQuery'
-        },
-        {
-            href : 'img/galleries/freelance/john_cash.jpg',
-            title : 'Mixed media painting (pen, oil)'
-        },
-        {
-            href : 'img/galleries/freelance/brazen.jpg',
-            title : 'Logo for a crossfit competition'
         }
+    ], {
+        padding : 0
+    });
+    
+    return false;
+    
+});
+
+$(".open_fancybox_personal").click(function() {
+    
+    $.fancybox.open([
+        {
+            href : 'img/galleries/personal/sc.jpg',
+            title : 'Strength Coach iOS App'
+        },
+        {
+            href : 'img/galleries/personal/bigbill_biglou.jpg',
+            title : 'Oil and mixed media paintings'
+        },
+        {
+            href : 'img/galleries/personal/multiblt.jpg',
+            title : 'iOS App for scanning and testing ble and bluetooth classic devices'
+        },
+        {
+            href : 'img/galleries/personal/john_cash.jpg',
+            title : 'Mixed media painting of Johnny Cash'
+        },
+        {
+            href : 'img/galleries/personal/tourmanager_app.jpg',
+            title : 'Tour Manager app, coming someday'
+        },
     ], {
         padding : 0
     });
