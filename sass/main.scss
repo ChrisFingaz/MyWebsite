@@ -27,11 +27,15 @@ body {
 	}
 }
 
-
-
 .main {
 	
 	text-align: center;
+	padding-top: 10%;
+	background:url('') no-repeat center center;	
+      width:100%; 
+      height:100%;
+      min-height:100%; /* for mobile and tablets */
+      background-size:cover;	
 
 	h1 {
 		margin:0;
@@ -86,13 +90,15 @@ body {
 	}
 
 	.name {
-		margin-top: 10%;
+		width: 40%;
+		margin: 0 auto;
 		margin-bottom: 10%;
-
+		padding: 10px;
+		text-align: center;
+		background-color: #000;
 	}
 
-	.content
-	{
+	.content {
 
 		background: $black;
 		margin-top: 10%;
